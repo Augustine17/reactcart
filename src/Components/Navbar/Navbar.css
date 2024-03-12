@@ -1,0 +1,42 @@
+.nav{
+    background: #645cff;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_center{
+    width: 90vw;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    color: #fff;
+}
+
+.cart-icon {
+    font-size: 2.25rem;
+    color: #fff;
+}
+
+.cart_section{
+    display: block;
+    position: relative;
+}
+
+.cart_count{
+    position: absolute;
+    top: -0.85rem;
+    right: -0.85rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: #a29dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
